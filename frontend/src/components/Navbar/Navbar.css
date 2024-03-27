@@ -1,0 +1,125 @@
+:root{
+    --collor--white: white;
+    --collor-gray: #f0f2f5;
+    --collor-gray2: #dddfe2;
+    --collor-gray3: #4242437b;
+    --collor-dark: #1d2129;
+    --collor-blue: #1b74e4;
+    --color-blue2: #1268d9;
+    --collor-green: #42b72a;
+    --collor-green2: #36a420;
+    margin-top: 100px;
+}
+
+.navbar-header {
+    background-color: var(--collor-blue);
+    color: var(--collor--white);
+    position: fixed; 
+    align-items: center;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px; 
+    z-index: 1;
+    height: 8%;
+    box-shadow: #1d2129 0px 1px 5px;
+}
+
+.left-header{
+    width: 50%;
+    text-align: left;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}   
+
+.logo{
+    margin-top: 0%;
+    margin-left: 2%;
+
+}
+
+.logo-home{
+    color: var(--collor--white);
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: .2s;
+    margin-bottom: 0;
+    margin-top: -10px;
+    margin-left: 2%;
+    padding: 10px 10px; 
+    cursor: pointer;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    }
+
+.buttons a {
+    width: 100px;
+}
+
+.buttons hr {
+    margin: 0px;
+}
+
+.btnHeader-profile,
+.btnHeader-account,
+.btnHeader-logout {
+    width: 100px;
+    height: 20px;
+    margin-top: 0px;
+    color: var(--color-white);
+    font-size: 15px;
+    transition: .2s;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.right-header{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;  
+}
+
+.user-greeting{
+    min-width: 200px;
+    display: block;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-right: auto;
+    display: flex;
+    flex-shrink: 0;
+    align-self: center;
+    
+}
+
+.user-greeting p {
+    margin-bottom: auto;
+    align-self: auto;
+    flex: 1;
+}
+
+.photo-profile{
+    background-color: var(--collor--white);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px 10px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: auto;
+    }
+    
+

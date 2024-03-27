@@ -1,0 +1,34 @@
+:root{
+    --collor--white: white;
+    --collor-gray: #f0f2f5;
+    --collor-gray2: #dddfe2;
+    --collor-gray3: #4242437b;
+    --collor-gray4: #4c4c4c;
+    --collor-dark: #1d2129;
+    --collor-blue: #1b74e4;
+    --color-blue2: #1268d9;
+    --collor-green: #42b72a;
+    --collor-green2: #36a420;
+    --collor-green3: #42b72aa3;
+}
+
+.boxButtonComment{
+    margin: 10px 132px;
+}
+.commentButton{
+    padding: 5px;
+    border: none;
+    background-color: var(--collor-green2);
+    color: var(--collor--white);
+    border-radius: 5px;
+    width: 150px;
+    font-size: 1.1rem;
+    transition: .2s;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.commentButton:hover{
+    background-color: var(--collor-green);
+}

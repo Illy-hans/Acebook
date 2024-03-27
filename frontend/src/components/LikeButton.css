@@ -1,0 +1,27 @@
+:root{
+    --collor--white: white;
+    --collor-gray: #f0f2f5;
+    --collor-gray2: #dddfe2;
+    --collor-gray3: #4242437b;
+    --collor-gray4: #4c4c4c;
+    --collor-dark: #1d2129;
+    --collor-blue: #1b74e4;
+    --color-blue2: #1268d9;
+    --collor-green: #42b72a;
+    --collor-green2: #36a420;
+}
+
+.likeContainer{
+    display: flex; 
+    align-items: center; 
+    width: calc(90% - 40px);
+    margin: 0 -11px;
+}
+
+
+.countLike{
+    font-size: 18px;
+    padding: 10px;
+    color: var(--collor-blue);
+    font-weight: bold;
+}

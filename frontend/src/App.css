@@ -1,0 +1,11 @@
+#root {
+  margin: 200px auto;
+  text-align: center;
+}
+
+.credits {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 10px;
+}

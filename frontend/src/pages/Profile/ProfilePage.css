@@ -1,0 +1,197 @@
+:root{
+    --collor--white: white;
+    --collor-gray: #f0f2f5;
+    --collor-gray2: #dddfe2;
+    --collor-dark: #1d2129;
+    --collor-blue: #1b74e4;
+    --color-blue2: #1268d9;
+    --collor-green: #42b72a;
+    --collor-green2: #36a420;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--collor-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-box{
+    background-color: var(--collor--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bio-box {
+    background-color: var(--collor--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 80%;
+    height: 20vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+
+.bio-header {
+    display: flex;
+    width: 100%;
+}
+
+.bio-profile-pic {
+    max-width: 40px;
+    margin-left: auto;
+}
+
+.profile-pic-container {
+    margin-left: auto;
+}
+
+.bio-box .profile-bio p {
+    margin: 0;
+    text-align: left;
+}
+.bio-box .profile-bio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 0;
+}
+
+.bio-box hr {
+    margin: 10px;
+}
+
+h2{
+    color: var(--collor-blue);
+    font-size: 1.5rem; 
+    margin-bottom: 2px;
+    margin-top: 2px;
+    align-self: center;
+
+}
+
+.input{
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid var(--collor-gray2);
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    color: var(--collor-dark);
+}
+
+.input:focus{
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 2px, color var(--color-blue2)
+}
+
+
+.btn{
+    padding: 15px;
+    border: none;
+    color: var(--collor--white);
+    border-radius: 5px;
+    width: 90%;
+    font-size: 1.1rem;
+    transition: .2s;
+}
+
+.btn:hover{
+    color: var(--collor-gray);
+}
+
+.btn-signup{
+    background-color: var(--collor-green);
+    cursor: pointer;
+}
+.btn-signup:hover{
+    background-color: var(--collor-green2);
+}
+
+
+
+.btn-login{
+    background-color: var(--collor-blue);
+    cursor: pointer;
+
+}
+.btn-login:hover{
+    background-color: var(--color-blue2);
+}
+
+hr{
+    width: 100%;
+    border: 1px solid var(--collor-gray2);
+}
+
+.feed-selector-link {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+.feed-selector-link:hover {
+    color: white;
+}
+
+.feed-selector-button {
+    height: 25px;
+    width: 100px;
+    background-color: var(--collor-green);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.feed-selector-button:hover {
+    background-color: var(--color-blue2);
+}
+
+.feed-selector-button h4 {
+    margin: 0px;
+}
+
+.feed-selector-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 10px;
+    min-height: 100%;
+}
+
+.feed-selector-button-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+}
+
+.profile-hero {
+    text-align: center;
+}

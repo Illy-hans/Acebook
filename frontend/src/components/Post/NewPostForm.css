@@ -1,0 +1,101 @@
+:root{
+    --collor--white: white;
+    --collor-gray: #f0f2f5;
+    --collor-gray2: #dddfe2;
+    --collor-gray3: #4242437b;
+    --collor-gray4: #4c4c4c;
+    --collor-dark: #1d2129;
+    --collor-blue: #1b74e4;
+    --color-blue2: #1268d9;
+    --collor-green: #42b72a;
+    --collor-green2: #36a420;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.postFormBox{
+    background-color: var(--collor--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    padding: 10px;
+    margin-bottom: auto;
+}
+
+.feedForm{
+    padding: 10px;
+
+}
+
+.boxText{
+    display: flex; 
+    align-items: center; 
+}
+
+.feedForm img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -10px;
+    margin-left: 2%;
+    
+}
+
+.postFormInput{
+    position: relative;
+    top: -8px;
+    margin-left: 2%;
+    width: calc(90% - 40px);
+    height: 50px;
+    background-color: var(--collor-gray);
+    border-radius: 20px;
+    padding-left: 15px;
+    font-size: 15px;
+    border: 0;
+}
+.postFormInput:focus{
+    outline: 0;
+}
+
+.feelingsIcon,
+.photoIcon,
+.videoIcon{
+    width: (100% - 80px);
+
+
+}
+
+.imageIcon{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7%;
+    
+}
+
+.iconSingle{
+    width: 33.3%;
+    display: flex;
+}
+    
+
+
+.iconSingle span{
+    font-size: bold 15px;
+    color: var(--collor-gray4);
+    margin: 10px 5px;
+}
+
+.buttonPostForm{
+    padding: 10px;
+    border: none;
+    background-color: var(--collor-blue);
+    color: var(--collor--white);
+    border-radius: 5px;
+    width: 94%;
+    font-size: 1.1rem;
+    transition: .2s;
+
+}

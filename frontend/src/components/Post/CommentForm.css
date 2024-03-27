@@ -1,0 +1,52 @@
+:root{
+    --collor--white: white;
+    --collor-gray: #f0f2f5;
+    --collor-gray2: #dddfe2;
+    --collor-gray3: #4242437b;
+    --collor-gray4: #4c4c4c;
+    --collor-dark: #1d2129;
+    --collor-blue: #1b74e4;
+    --color-blue2: #1268d9;
+    --collor-green: #42b72a;
+    --collor-green2: #36a420;
+}
+
+.commentForm{
+    display: flex;
+    align-items: center; 
+}
+
+
+.commentBox{
+    width: 570px;
+    padding: 10px;
+    
+    
+}
+
+.commentFormInput{
+    position: relative;
+    top: -8px;
+    margin-left: 2%;
+    width: calc(90% - 40px);
+    height: 50px;
+    background-color: var(--collor-gray);
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    border: 0;
+}
+
+.commentFormInput:focus{
+    outline: 0;
+}
+
+.commentSubmit{
+    position: relative;
+    top: -6px;
+    margin-left: 5px;
+    padding: 3px;
+    width: 5%;
+}
+
+
